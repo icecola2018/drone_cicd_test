@@ -1,9 +1,8 @@
 workspace:
-  base: /drone_cicd_test
-  path: src
+  base: /python
+  path: src/github.com/icecola2018/drone_cicd_test
 pipeline:
   build:
     image: python:2.7
     commands:
       - echo "build ok..."
-
